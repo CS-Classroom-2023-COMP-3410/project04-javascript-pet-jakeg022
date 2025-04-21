@@ -1,0 +1,51 @@
+body {
+    font-family: 'Helvetica', Verdana, sans-serif;
+    background: #f0f4f8;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    text-align: center;
+    width: 300px;
+  }
+  
+  #pet {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 1rem auto;
+    border-radius: 100%;
+  }
+  
+  .controls button {
+    background-color: rgb(49, 177, 102);
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .controls button:hover {
+    background-color: #0d4e10;
+  }
+  
+  .status p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  #mood, #hunger, #energy {
+    font-weight: bold;
+  }
+  
